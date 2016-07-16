@@ -1,0 +1,15 @@
+- block:
+  - name: Install php
+    dnf: name={{item}} state=latest
+    with_items:
+      - php-cli
+      - composer
+      - phpunit
+
+  - name: Install the Symfony installer
+    shell: curl -LsS https://symfony.com/installer -o /usr/local/bin/symfony;chmod a+x /usr/local/bin/symfony
+  become: true
+  tags:
+    - packages
+    - devel
+    - php

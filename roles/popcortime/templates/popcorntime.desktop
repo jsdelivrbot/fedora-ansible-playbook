@@ -1,0 +1,9 @@
+[Desktop Entry]
+Name=Popcorn Time
+Comment=Stream movies from torrents. Skip the downloads. Launch, click, watch
+Exec=/opt/Popcorn-Time/linux64/Popcorn-Time
+Terminal=false
+Icon=/opt/Popcorn-Time/linux64/src/app/images/popcorntime.ico
+Type=Application
+Categories=AudioVideo;
+StartupNotify=true

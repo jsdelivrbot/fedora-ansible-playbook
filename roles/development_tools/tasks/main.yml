@@ -1,0 +1,36 @@
+- block:
+  - name: Install development tools
+    dnf: name={{item}} state=latest
+    with_items:
+      - binutils
+      - gitg
+      - meld
+      - filezilla
+      - mycli
+      - httpie
+      - devhelp
+      - gnome-devel-docs
+      - libselinux-python
+
+  - name: Enable Terminix repository
+    command: dnf copr -y enable heikoada/terminix
+
+  - name: Install Terminix
+    dnf: name={{item}} state=latest
+    with_items:
+      - terminix
+
+  - name: Download Ngrok
+    get_url: url={{ngrok_download_url}} dest="/tmp/ngrok.zip"
+
+  - name: Decompress Ngrok
+    unarchive: src="/tmp/ngrok.zip" dest="/usr/local/bin/" copy=no
+
+  - name: Execution permissions to Ngrok
+    file: path="/usr/local/bin/ngrok" state=file mode="a+x"
+  become: true
+  tags:
+    - devel
+    - packages
+    - terminix
+    - ngrok

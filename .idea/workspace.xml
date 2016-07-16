@@ -1,0 +1,1072 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="0df59e63-590d-4859-badc-511b756600ab" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/composerJson.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/roles/git_utils/meta/main.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/roles/gogland/defaults/main.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/roles/gogland/tasks/main.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/roles/opera/defaults/main.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/roles/opera/tasks/main.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/roles/optimization/tasks/files/powertop.service" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/library/gsetting.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/roles/development_tools/templates/terminator/config" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/roles/graphical_utilities/main.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/roles/phpstorm/defaults/main.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/roles/phpstorm/tasks/main.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/roles/phpstorm/templates/phpstorm.desktop" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/group_vars/all.yml" afterPath="$PROJECT_DIR$/group_vars/all.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/host_vars/box.yml" afterPath="$PROJECT_DIR$/host_vars/box.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/host_vars/local.yml" afterPath="$PROJECT_DIR$/host_vars/local.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/inventories/box" afterPath="$PROJECT_DIR$/inventories/box" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/inventories/local" afterPath="$PROJECT_DIR$/inventories/local" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/provision.yml" afterPath="$PROJECT_DIR$/provision.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/roles/atom/defaults/main.yml" afterPath="$PROJECT_DIR$/roles/atom/defaults/main.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/roles/atom/tasks/main.yml" afterPath="$PROJECT_DIR$/roles/atom/tasks/main.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/roles/development_tools/tasks/main.yml" afterPath="$PROJECT_DIR$/roles/development_tools/tasks/main.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/roles/docker/tasks/main.yml" afterPath="$PROJECT_DIR$/roles/docker/tasks/main.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/roles/gnome_settings/tasks/main.yml" afterPath="$PROJECT_DIR$/roles/gnome_settings/tasks/main.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/roles/multimedia_packages/defaults/main.yml" afterPath="$PROJECT_DIR$/roles/multimedia_packages/defaults/main.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/roles/password_store/tasks/main.yml" afterPath="$PROJECT_DIR$/roles/password_store/tasks/main.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/roles/popcortime/defaults/main.yml" afterPath="$PROJECT_DIR$/roles/popcortime/defaults/main.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/roles/popcortime/tasks/main.yml" afterPath="$PROJECT_DIR$/roles/popcortime/tasks/main.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/roles/pulseaudio_dlna/defaults/main.yml" afterPath="$PROJECT_DIR$/roles/pulseaudio_dlna/defaults/main.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/roles/utils_packages/tasks/main.yml" afterPath="$PROJECT_DIR$/roles/utils_packages/tasks/main.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/roles/virtualbox/tasks/main.yml" afterPath="$PROJECT_DIR$/roles/virtualbox/tasks/main.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/roles/zsh/tasks/main.yml" afterPath="$PROJECT_DIR$/roles/zsh/tasks/main.yml" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="main.yml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/roles/utils_packages/tasks/main.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="134">
+              <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+              <folding>
+                <marker date="1486844522350" expanded="true" signature="87:197" ph="with_items: &lt;5 items&gt;" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>24</find>
+      <find>f24</find>
+      <find>25</find>
+      <find>copr</find>
+      <find>redshift</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>f25</replace>
+    </replaceStrings>
+    <dirStrings>
+      <dir>$PROJECT_DIR$</dir>
+    </dirStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/roles/intellj/defaults/main.yml" />
+        <option value="$PROJECT_DIR$/inventories/box" />
+        <option value="$PROJECT_DIR$/group_vars/all.yml" />
+        <option value="$PROJECT_DIR$/roles/fonts/tasks/main.yml" />
+        <option value="$PROJECT_DIR$/roles/pulseaudio_dlna/defaults/main.yml" />
+        <option value="$PROJECT_DIR$/roles/multimedia_packages/defaults/main.yml" />
+        <option value="$PROJECT_DIR$/roles/git_utils/meta/main.yml" />
+        <option value="$PROJECT_DIR$/roles/php/tasks/main.yml" />
+        <option value="$PROJECT_DIR$/roles/opera/defaults/main.yml" />
+        <option value="$PROJECT_DIR$/roles/intellj/tasks/main.yml" />
+        <option value="$PROJECT_DIR$/roles/atom/tasks/main.yml" />
+        <option value="$PROJECT_DIR$/roles/gogland/defaults/main.yml" />
+        <option value="$PROJECT_DIR$/roles/gogland/tasks/main.yml" />
+        <option value="$PROJECT_DIR$/roles/opera/tasks/main.yml" />
+        <option value="$PROJECT_DIR$/roles/popcortime/defaults/main.yml" />
+        <option value="$PROJECT_DIR$/roles/popcortime/tasks/main.yml" />
+        <option value="$PROJECT_DIR$/roles/virtualbox/tasks/main.yml" />
+        <option value="$PROJECT_DIR$/roles/steam/tasks/main.yml" />
+        <option value="$PROJECT_DIR$/roles/gnome_settings/tasks/main.yml" />
+        <option value="$PROJECT_DIR$/provision.yml" />
+        <option value="$PROJECT_DIR$/roles/atom/defaults/main.yml" />
+        <option value="$PROJECT_DIR$/roles/optimization/tasks/files/powertop.service" />
+        <option value="$PROJECT_DIR$/roles/optimization/tasks/main.yml" />
+        <option value="$PROJECT_DIR$/roles/utils_packages/tasks/main.yml" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
+  <component name="ProjectFrameBounds">
+    <option name="y" value="27" />
+    <option name="width" value="1920" />
+    <option name="height" value="1053" />
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State>
+            <id />
+          </State>
+          <State>
+            <id>CSS</id>
+          </State>
+          <State>
+            <id>Class structureJava</id>
+          </State>
+          <State>
+            <id>Code StylePHP</id>
+          </State>
+          <State>
+            <id>Code quality toolsCSS</id>
+          </State>
+          <State>
+            <id>Code quality toolsJavaScript</id>
+          </State>
+          <State>
+            <id>Code style issuesJava</id>
+          </State>
+          <State>
+            <id>CompatibilityPhp Inspections (EA Extended)PHP</id>
+          </State>
+          <State>
+            <id>Composer.json</id>
+          </State>
+          <State>
+            <id>Concurrency annotation issuesJava</id>
+          </State>
+          <State>
+            <id>Control flow issuesJava</id>
+          </State>
+          <State>
+            <id>Data flow issuesJava</id>
+          </State>
+          <State>
+            <id>Data flow issuesJavaScript</id>
+          </State>
+          <State>
+            <id>Declaration redundancyJava</id>
+          </State>
+          <State>
+            <id>Error handlingJava</id>
+          </State>
+          <State>
+            <id>Flow type checkerJavaScript</id>
+          </State>
+          <State>
+            <id>General</id>
+          </State>
+          <State>
+            <id>GeneralGo</id>
+          </State>
+          <State>
+            <id>GeneralJavaScript</id>
+          </State>
+          <State>
+            <id>Go</id>
+          </State>
+          <State>
+            <id>HTML</id>
+          </State>
+          <State>
+            <id>ImportsJava</id>
+          </State>
+          <State>
+            <id>Initialization issuesJava</id>
+          </State>
+          <State>
+            <id>Internationalization issues</id>
+          </State>
+          <State>
+            <id>Internationalization issuesJava</id>
+          </State>
+          <State>
+            <id>Invalid elementsCSS</id>
+          </State>
+          <State>
+            <id>J2ME issuesJava</id>
+          </State>
+          <State>
+            <id>JSON</id>
+          </State>
+          <State>
+            <id>Java</id>
+          </State>
+          <State>
+            <id>Java language level migration aidsJava</id>
+          </State>
+          <State>
+            <id>JavaScript</id>
+          </State>
+          <State>
+            <id>Javadoc issuesJava</id>
+          </State>
+          <State>
+            <id>Manifest</id>
+          </State>
+          <State>
+            <id>Numeric issuesJava</id>
+          </State>
+          <State>
+            <id>PHP</id>
+          </State>
+          <State>
+            <id>Performance issuesJava</id>
+          </State>
+          <State>
+            <id>PerformancePhp Inspections (EA Extended)PHP</id>
+          </State>
+          <State>
+            <id>Php Inspections (EA Extended)PHP</id>
+          </State>
+          <State>
+            <id>Portability issuesJava</id>
+          </State>
+          <State>
+            <id>Probable bugsJava</id>
+          </State>
+          <State>
+            <id>Probable bugsPhp Inspections (EA Extended)PHP</id>
+          </State>
+          <State>
+            <id>Properties Files</id>
+          </State>
+          <State>
+            <id>Properties FilesJava</id>
+          </State>
+          <State>
+            <id>RELAX NG</id>
+          </State>
+          <State>
+            <id>Resource management issuesJava</id>
+          </State>
+          <State>
+            <id>Sass/SCSS</id>
+          </State>
+          <State>
+            <id>Security issuesJava</id>
+          </State>
+          <State>
+            <id>SecurityPhp Inspections (EA Extended)PHP</id>
+          </State>
+          <State>
+            <id>Threading issuesJava</id>
+          </State>
+          <State>
+            <id>Type compatibilityPHP</id>
+          </State>
+          <State>
+            <id>UndefinedPHP</id>
+          </State>
+          <State>
+            <id>UnusedPHP</id>
+          </State>
+          <State>
+            <id>XML</id>
+          </State>
+          <State>
+            <id>XPath</id>
+          </State>
+        </expanded-state>
+      </profile-state>
+    </entry>
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource ProjectPane="true" />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ansible-fedora-workstation-provision" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ansible-fedora-workstation-provision" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ansible-fedora-workstation-provision" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ansible-fedora-workstation-provision" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="roles" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ansible-fedora-workstation-provision" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ansible-fedora-workstation-provision" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="roles" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="utils_packages" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tasks" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ansible-fedora-workstation-provision" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ansible-fedora-workstation-provision" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="roles" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="development_tools" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tasks" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ansible-fedora-workstation-provision" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ansible-fedora-workstation-provision" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="roles" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="development_tools" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scratches" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="nodejs_interpreter_path" value="/usr/bin/node" />
+    <property name="js.eslint.eslintPackage" value="" />
+    <property name="js-jscs-nodeInterpreter" value="/usr/bin/node" />
+    <property name="settings.editor.selected.configurable" value="Errors" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/roles" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <module />
+      <method />
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="BashConfigurationType" factoryName="Bash">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="INTERPRETER_PATH" value="/bin/bash" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="GoApplicationRunConfiguration" factoryName="Go Application">
+      <module name="" />
+      <working_directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <kind value="FILE" />
+      <method />
+    </configuration>
+    <configuration default="true" type="GoRunFileConfiguration" factoryName="Go Single File">
+      <module name="" />
+      <working_directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <method />
+    </configuration>
+    <configuration default="true" type="GoTestRunConfiguration" factoryName="Go Test">
+      <module name="" />
+      <working_directory value="$PROJECT_DIR$" />
+      <framework value="gotest" />
+      <kind value="DIRECTORY" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JarApplication" factoryName="JAR Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="Java Scratch" factoryName="Java Scratch">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="SCRATCH_FILE_ID" value="0" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerProtractor" factoryName="Protractor">
+      <config-file value="" />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
+      <TestRunner />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpLocalRunConfigurationType" factoryName="PHP Console">
+      <method />
+    </configuration>
+    <configuration default="true" type="Remote" factoryName="Remote">
+      <option name="USE_SOCKET_TRANSPORT" value="true" />
+      <option name="SERVER_MODE" value="false" />
+      <option name="SHMEM_ADDRESS" value="javadebug" />
+      <option name="HOST" value="localhost" />
+      <option name="PORT" value="5005" />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.npm" factoryName="npm">
+      <command value="run" />
+      <scripts />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration name="&lt;template&gt;" type="JUnit" default="true" selected="false">
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+    </configuration>
+    <configuration name="&lt;template&gt;" type="TestNG" default="true" selected="false">
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+    </configuration>
+    <configuration name="&lt;template&gt;" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" default="true" selected="false">
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+    </configuration>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="0df59e63-590d-4859-badc-511b756600ab" name="Default" comment="" />
+      <created>1485636809775</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1485636809775</updated>
+      <workItem from="1485636815864" duration="401000" />
+      <workItem from="1485637685367" duration="922000" />
+      <workItem from="1485640561502" duration="1339000" />
+      <workItem from="1485685608985" duration="6605000" />
+      <workItem from="1485692754115" duration="2400000" />
+      <workItem from="1485695730730" duration="736000" />
+      <workItem from="1485711215242" duration="2124000" />
+      <workItem from="1485714084049" duration="1112000" />
+      <workItem from="1485715562549" duration="2249000" />
+      <workItem from="1485725221385" duration="704000" />
+      <workItem from="1485766292096" duration="76000" />
+      <workItem from="1485784648492" duration="28000" />
+      <workItem from="1485808512515" duration="1147000" />
+      <workItem from="1485861519256" duration="7000" />
+      <workItem from="1485864213306" duration="13000" />
+      <workItem from="1485874678584" duration="10000" />
+      <workItem from="1485943034039" duration="11000" />
+      <workItem from="1485943132759" duration="605000" />
+      <workItem from="1485956150808" duration="35000" />
+      <workItem from="1485959218147" duration="609000" />
+      <workItem from="1485964614151" duration="14000" />
+      <workItem from="1486033941998" duration="1107000" />
+      <workItem from="1486035624566" duration="11000" />
+      <workItem from="1486035691018" duration="96000" />
+      <workItem from="1486035843585" duration="9000" />
+      <workItem from="1486035880130" duration="5000" />
+      <workItem from="1486035932080" duration="24000" />
+      <workItem from="1486045583634" duration="61000" />
+      <workItem from="1486114265982" duration="210000" />
+      <workItem from="1486291295950" duration="2257000" />
+      <workItem from="1486374190663" duration="246000" />
+      <workItem from="1486844429327" duration="97000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="25270000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="27" width="1920" height="1053" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26458332" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32962587" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="processedProjectFiles" value="true" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/host_vars/box.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/roles/fonts/default/main.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/roles/fonts/defaults/main.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22">
+          <caret line="1" column="0" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/roles/fonts/tasks/main.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="2" column="15" lean-forward="false" selection-start-line="2" selection-start-column="15" selection-end-line="2" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/roles/pulseaudio_dlna/defaults/main.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="2" column="0" lean-forward="true" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/roles/nodejs/tasks/main.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="13" column="0" lean-forward="true" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/roles/git_utils/meta/main.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22">
+          <caret line="1" column="8" lean-forward="true" selection-start-line="1" selection-start-column="8" selection-end-line="1" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/roles/git_utils/tasks/main.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="506">
+          <caret line="23" column="17" lean-forward="true" selection-start-line="23" selection-start-column="17" selection-end-line="23" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/roles/golang/tasks/main.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/roles/php/tasks/main.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="6" column="15" lean-forward="false" selection-start-line="6" selection-start-column="15" selection-end-line="6" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/roles/java/tasks/main.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/roles/mongo-shell/tasks/main.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/roles/mongo_client/tasks/main.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/roles/docker_containers/tasks/main.yml" />
+    <entry file="file://$PROJECT_DIR$/roles/docker/tasks/main.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="528">
+          <caret line="24" column="0" lean-forward="true" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/roles/git_utils/defaults/main.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/roles/multimedia_packages/defaults/main.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="1" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/roles/intellj/defaults/main.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="20" lean-forward="false" selection-start-line="0" selection-start-column="20" selection-end-line="0" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/roles/intellj/tasks/main.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="14" column="9" lean-forward="false" selection-start-line="14" selection-start-column="9" selection-end-line="14" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/roles/gogland/defaults/main.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22">
+          <caret line="1" column="15" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/roles/gogland/tasks/main.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="9" column="7" lean-forward="true" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/roles/opera/defaults/main.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="3" column="2" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/roles/atom/tasks/main.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="2" column="48" lean-forward="true" selection-start-line="2" selection-start-column="36" selection-end-line="2" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/roles/vocal/tasks/main.yml" />
+    <entry file="file://$PROJECT_DIR$/roles/vocal/defaults/main.yml" />
+    <entry file="file://$PROJECT_DIR$/roles/opera/tasks/main.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="7" column="13" lean-forward="true" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/roles/spotify/tasks/main.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="16" column="0" lean-forward="true" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/roles/popcortime/tasks/main.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="18" column="43" lean-forward="false" selection-start-line="18" selection-start-column="43" selection-end-line="18" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/roles/popcortime/defaults/main.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/roles/virtualbox/defaults/main.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/roles/virtualbox/tasks/main.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="462">
+          <caret line="21" column="22" lean-forward="false" selection-start-line="21" selection-start-column="22" selection-end-line="21" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/roles/steam/defaults/main.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22">
+          <caret line="1" column="0" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/roles/steam/tasks/main.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="17" column="0" lean-forward="true" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/roles/teamviewer/tasks/main.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/roles/password_store/defaults/main.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/roles/pulseaudio_dlna/tasks/main.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/roles/zsh/tasks/main.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="512">
+          <caret line="37" column="14" lean-forward="true" selection-start-line="37" selection-start-column="14" selection-end-line="37" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/roles/atom/defaults/main.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="71" lean-forward="false" selection-start-line="0" selection-start-column="71" selection-end-line="0" selection-end-column="71" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/roles/gnome_settings/tasks/main.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="732">
+          <caret line="63" column="16" lean-forward="false" selection-start-line="63" selection-start-column="16" selection-end-line="63" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/requirements.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22">
+          <caret line="1" column="0" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/inventories/local">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="2" column="0" lean-forward="true" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/host_vars/all.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/host_vars/local.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/keys/pass_private.key">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="13" column="22" lean-forward="true" selection-start-line="13" selection-start-column="22" selection-end-line="13" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/group_vars/all.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/inventories/box">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/provision.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="7" column="23" lean-forward="false" selection-start-line="7" selection-start-column="23" selection-end-line="7" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/roles/optimization/tasks/files/powertop.service">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="8" column="16" lean-forward="false" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/roles/optimization/tasks/main.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="12" column="10" lean-forward="false" selection-start-line="12" selection-start-column="10" selection-end-line="12" selection-end-column="10" />
+          <folding>
+            <marker date="1486292461240" expanded="true" signature="2:298" ph="block: &lt;1 item&gt;" />
+            <marker date="1486292461240" expanded="true" signature="19:46" ph="Deactive …on startup" />
+            <marker date="1486292461240" expanded="true" signature="69:204" ph="dest=/etc…led=false&quot;" />
+            <marker date="1486292461240" expanded="true" signature="209:298" ph="with_items: &lt;3 items&gt;" />
+            <marker date="1486292461240" expanded="true" signature="229:245" ph="tracker-miner-fs" />
+            <marker date="1486292461240" expanded="true" signature="254:276" ph="evolution…arm-notify" />
+            <marker date="1486292461240" expanded="true" signature="285:298" ph="tracker-store" />
+            <marker date="1486292461240" expanded="true" signature="309:313" ph="true" />
+            <marker date="1486292461240" expanded="true" signature="316:372" ph="tags: &lt;3 items&gt;" />
+            <marker date="1486292461240" expanded="true" signature="328:341" ph="configuration" />
+            <marker date="1486292461240" expanded="true" signature="348:353" ph="gnome" />
+            <marker date="1486292461240" expanded="true" signature="360:372" ph="optimization" />
+            <marker date="1486292461240" expanded="true" signature="376:965" ph="block: &lt;2 items&gt;" />
+            <marker date="1486292461240" expanded="true" signature="393:428" ph="Disable s…on startup" />
+            <marker date="1486292461240" expanded="true" signature="448:481" ph="name={{it…bled=false" />
+            <marker date="1486292461240" expanded="true" signature="486:823" ph="with_items: &lt;16 items&gt;" />
+            <marker date="1486292461240" expanded="true" signature="506:524" ph="plymouth-quit-wait" />
+            <marker date="1486292461240" expanded="true" signature="533:540" ph="vboxdrv" />
+            <marker date="1486292461240" expanded="true" signature="549:561" ph="lvm2-monitor" />
+            <marker date="1486292461240" expanded="true" signature="570:578" ph="libvirtd" />
+            <marker date="1486292461240" expanded="true" signature="587:596" ph="abrt-ccpp" />
+            <marker date="1486292461240" expanded="true" signature="605:610" ph="abrtd" />
+            <marker date="1486292461240" expanded="true" signature="619:636" ph="abrt-journal-core" />
+            <marker date="1486292461240" expanded="true" signature="645:660" ph="abrt-pstoreoops" />
+            <marker date="1486292461240" expanded="true" signature="669:678" ph="abrt-oops" />
+            <marker date="1486292461240" expanded="true" signature="687:698" ph="abrt-vmcore" />
+            <marker date="1486292461240" expanded="true" signature="707:724" ph="abrt-xorg.service" />
+            <marker date="1486292461240" expanded="true" signature="733:747" ph="auditd.service" />
+            <marker date="1486292461240" expanded="true" signature="756:768" ph="avahi-daemon" />
+            <marker date="1486292461240" expanded="true" signature="777:788" ph="teamviewerd" />
+            <marker date="1486292461240" expanded="true" signature="797:806" ph="bluetooth" />
+            <marker date="1486292461240" expanded="true" signature="815:823" ph="sendmail" />
+            <marker date="1486292461240" expanded="true" signature="828:965" ph="name: &lt;2 keys&gt;" />
+            <marker date="1486292461240" expanded="true" signature="834:872" ph="Enable Tr…on startup" />
+            <marker date="1486292461240" expanded="true" signature="896:930" ph="name={{it…abled=true" />
+            <marker date="1486292461240" expanded="true" signature="937:965" ph="with_items: &lt;1 item&gt;" />
+            <marker date="1486292461240" expanded="true" signature="959:965" ph="fstrim" />
+            <marker date="1486292461240" expanded="true" signature="976:980" ph="true" />
+            <marker date="1486292461240" expanded="true" signature="983:1027" ph="tags: &lt;2 items&gt;" />
+            <marker date="1486292461240" expanded="true" signature="995:1008" ph="configuration" />
+            <marker date="1486292461240" expanded="true" signature="1015:1027" ph="optimization" />
+            <marker date="1486292461240" expanded="true" signature="1031:1374" ph="block: &lt;3 items&gt;" />
+            <marker date="1486292461240" expanded="true" signature="1048:1059" ph="Install tlp" />
+            <marker date="1486292461240" expanded="true" signature="1069:1097" ph="name={{ i…ate=latest" />
+            <marker date="1486292461240" expanded="true" signature="1102:1163" ph="with_items: &lt;3 items&gt;" />
+            <marker date="1486292461240" expanded="true" signature="1122:1125" ph="tlp" />
+            <marker date="1486292461240" expanded="true" signature="1134:1141" ph="tlp-rdw" />
+            <marker date="1486292461240" expanded="true" signature="1150:1163" ph="smartmontools" />
+            <marker date="1486292461240" expanded="true" signature="1174:1190" ph="Install powertop" />
+            <marker date="1486292461240" expanded="true" signature="1200:1228" ph="name={{ i…ate=latest" />
+            <marker date="1486292461240" expanded="true" signature="1233:1261" ph="with_items: &lt;1 item&gt;" />
+            <marker date="1486292461240" expanded="true" signature="1253:1261" ph="powertop" />
+            <marker date="1486292461240" expanded="true" signature="1272:1287" ph="Enable powertop" />
+            <marker date="1486292461240" expanded="true" signature="1292:1374" ph="copy: &lt;2 keys&gt;" />
+            <marker date="1486292461240" expanded="true" signature="1309:1325" ph="powertop.service" />
+            <marker date="1486292461240" expanded="true" signature="1338:1374" ph="/etc/syst…op.service" />
+            <marker date="1486292461240" expanded="true" signature="1386:1390" ph="true" />
+            <marker date="1486292461240" expanded="true" signature="1393:1451" ph="tags: &lt;3 items&gt;" />
+            <marker date="1486292461240" expanded="true" signature="1405:1418" ph="configuration" />
+            <marker date="1486292461240" expanded="true" signature="1425:1437" ph="optimization" />
+            <marker date="1486292461240" expanded="true" signature="1444:1451" ph="battery" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/roles/development_tools/tasks/main.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="20" selection-end-column="16" />
+          <folding>
+            <marker date="1477248220027" expanded="true" signature="2:723" ph="block: &lt;6 items&gt;" />
+            <marker date="1477248220027" expanded="true" signature="19:44" ph="Install d…ment tools" />
+            <marker date="1477248220027" expanded="true" signature="54:80" ph="name={{it…ate=latest" />
+            <marker date="1477248220027" expanded="true" signature="85:253" ph="with_items: &lt;9 items&gt;" />
+            <marker date="1477248220027" expanded="true" signature="105:113" ph="binutils" />
+            <marker date="1477248220027" expanded="true" signature="122:126" ph="gitg" />
+            <marker date="1477248220027" expanded="true" signature="135:139" ph="meld" />
+            <marker date="1477248220027" expanded="true" signature="148:157" ph="filezilla" />
+            <marker date="1477248220027" expanded="true" signature="166:171" ph="mycli" />
+            <marker date="1477248220027" expanded="true" signature="180:186" ph="httpie" />
+            <marker date="1477248220027" expanded="true" signature="195:202" ph="devhelp" />
+            <marker date="1477248220027" expanded="true" signature="211:227" ph="gnome-devel-docs" />
+            <marker date="1477248220027" expanded="true" signature="236:253" ph="libselinux-python" />
+            <marker date="1477248220027" expanded="true" signature="265:291" ph="Enable Te…repository" />
+            <marker date="1477248220027" expanded="true" signature="305:341" ph="dnf copr …a/terminix" />
+            <marker date="1477248220027" expanded="true" signature="353:369" ph="Install Terminix" />
+            <marker date="1477248220027" expanded="true" signature="379:405" ph="name={{it…ate=latest" />
+            <marker date="1477248220027" expanded="true" signature="410:438" ph="with_items: &lt;1 item&gt;" />
+            <marker date="1477248220027" expanded="true" signature="430:438" ph="terminix" />
+            <marker date="1477248220027" expanded="true" signature="450:464" ph="Download Ngrok" />
+            <marker date="1477248220027" expanded="true" signature="478:526" ph="url={{ngr…ngrok.zip&quot;" />
+            <marker date="1477248220027" expanded="true" signature="538:554" ph="Decompress Ngrok" />
+            <marker date="1477248220027" expanded="true" signature="570:621" ph="src=&quot;/tmp…/&quot; copy=no" />
+            <marker date="1477248220027" expanded="true" signature="633:663" ph="Execution…s to Ngrok" />
+            <marker date="1477248220027" expanded="true" signature="674:723" ph="path=&quot;/us…mode=&quot;a+x&quot;" />
+            <marker date="1477248220027" expanded="true" signature="734:738" ph="true" />
+            <marker date="1477248220027" expanded="true" signature="741:800" ph="tags: &lt;4 items&gt;" />
+            <marker date="1477248220027" expanded="true" signature="753:758" ph="devel" />
+            <marker date="1477248220027" expanded="true" signature="765:773" ph="packages" />
+            <marker date="1477248220027" expanded="true" signature="780:788" ph="terminix" />
+            <marker date="1477248220027" expanded="true" signature="795:800" ph="ngrok" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/roles/utils_packages/tasks/main.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="134">
+          <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+          <folding>
+            <marker date="1486844522350" expanded="true" signature="87:197" ph="with_items: &lt;5 items&gt;" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

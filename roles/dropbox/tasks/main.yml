@@ -1,0 +1,9 @@
+- block:
+  - name: Install Dropbox
+    dnf: name={{dropbox_download_url}} state=latest
+  become: true
+  tags:
+    - packages
+    - software
+    - restricted
+    - dropbox

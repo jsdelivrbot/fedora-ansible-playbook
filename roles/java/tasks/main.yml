@@ -1,0 +1,8 @@
+- block:
+  - name: Install Java
+    dnf: name=java-openjdk state=latest
+  become: true
+  tags:
+    - packages
+    - devel
+    - java

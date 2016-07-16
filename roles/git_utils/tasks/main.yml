@@ -1,0 +1,24 @@
+- block:
+  - name: Ensure git hooks directory exists
+    file: path=".git/hooks/" state="directory"
+  - name: Install Git confirm
+    get_url:
+      url: "{{git_confirm_url}}"
+      dest: .git/hooks/pre-commit
+
+  - name: Ensure git confirm execution permissions
+    file: path=".git/hooks/pre-commit" state="file" mode="a+x"
+
+  - name: Configure Git
+    template: src="gitconfig" dest="~/.gitconfig"
+  tags:
+    - git
+    - development
+
+- block:
+  - name: Install Git open
+    npm: name=git-open global=yes
+  become: true
+  tags:
+    - git
+    - development

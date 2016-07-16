@@ -1,0 +1,33 @@
+- block:
+  - name: Install Atom
+    dnf: name={{atom_download_url}} state=latest
+  become: true
+  tags:
+    - devel
+    - packages
+    - software
+    - ide
+    - atom
+
+- block:
+  - name: Install Atom packages
+    command: apm install {{item}}
+    with_items:
+      - emmet
+      - godef
+      - formatter-gofmt
+      - linter-golinter
+      - go-find-references
+      - godef
+      - go-rename
+      - language-ansible
+      - ansible-snippets
+      - language-vue
+      - linter
+      - project-plus
+  tags:
+    - devel
+    - packages
+    - software
+    - ide
+    - atom

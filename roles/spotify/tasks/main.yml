@@ -1,0 +1,16 @@
+- block:
+  - name: Enable Negativo17 repository
+    command: dnf config-manager --add-repo={{negativo17_repository_url}}
+
+  - name: Install Spotify client
+    dnf: name={{ item }} state=latest
+    with_items:
+      - spotify-client
+  become: true
+  tags:
+    - packages
+    - software
+    - restricted
+    - multimeda
+    - music
+    - spotify

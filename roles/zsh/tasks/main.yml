@@ -1,0 +1,52 @@
+- block:
+  - name: Install zsh
+    dnf: name={{item}} state=latest
+    with_items:
+      - zsh
+      - git
+      - curl
+      - util-linux-user
+      - libselinux-python
+
+  - name: Make Zsh the default shell
+    command: chsh -s /bin/zsh {{ansible_user}}
+  become: true
+  tags:
+    - packages
+    - terminal
+    - zsh
+
+- block:
+  - name: Cloning oh-my-zsh
+    git:
+      repo=https://github.com/robbyrussell/oh-my-zsh
+      dest=~/.oh-my-zsh
+
+  - name: Creating new ~/.zshrc
+    copy:
+      src=~/.oh-my-zsh/templates/zshrc.zsh-template
+      dest=~/.zshrc
+
+  - name: Enable zsh plugins
+    lineinfile:
+      dest=~/.zshrc
+      regexp="plugins\=\(git\)"
+      line="plugins=(git docker composer dircycle dirhistory dnf httpie jira jsontools npm pass pip python redis-cli sudo supervisor symfony2 systemd vagrant web-search wd)"
+  - name: Add warp directories
+    template: src="warprc" dest="~/.warprc"
+  tags:
+    - packages
+    - terminal
+    - zsh
+
+- block:
+  - name: Install Borg
+    get_url: url={{borg_download_url}} dest="/usr/local/bin/borg"
+
+  - name: Execution permissions to Borg
+    file: path="/usr/local/bin/borg" state=file mode="a+x"
+  become: true
+  tags:
+    - packages
+    - terminal
+    - zsh

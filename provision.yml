@@ -1,0 +1,37 @@
+- name: Playbook to provision my local machine
+  hosts: laptop
+  roles:
+    - base_packages
+    - devel_packages
+    - multimedia_packages
+    - utils_packages
+    - development_tools
+    - gnome_settings
+    - fonts
+    - pulseaudio_dlna
+    - zsh
+    - nodejs
+    - git_utils
+    - password_store
+    - golang
+    - php
+    - python
+    - java
+    - docker
+    - mongo-shell
+    - vagrant
+    - intellj
+    - gogland
+    - atom
+    - opera
+    - slack
+    - spotify
+    - dropbox
+    - popcortime
+    - virtualbox
+    - skype
+    - chrome
+    - steam
+    - teamviewer
+    - optimization
+    - work

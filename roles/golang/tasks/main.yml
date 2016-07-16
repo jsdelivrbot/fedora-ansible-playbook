@@ -1,0 +1,11 @@
+- block:
+  - name: Install golang
+    dnf: name={{item}} state=latest
+    with_items:
+      - golang
+      - golang-docs
+  become: true
+  tags:
+    - packages
+    - devel
+    - golang

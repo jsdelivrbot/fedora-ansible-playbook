@@ -1,0 +1,15 @@
+- block:
+  - name: Create software directory
+    file: path={{software_directory}} state=directory
+
+  - name: Download Intellj Idea
+    get_url: url={{intellj_idea_download_url}} dest=~/Downloads
+
+  - name: Decompress Intellj Idea
+    unarchive: src="~/Downloads/ideaIU-{{intellj_idea_version}}.tar.gz" dest={{software_directory}} copy=no
+  tags:
+    - devel
+    - software
+    - restricted
+    - intellj
+    - ide

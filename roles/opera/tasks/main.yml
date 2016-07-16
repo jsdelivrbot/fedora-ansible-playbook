@@ -1,0 +1,8 @@
+- block:
+  - name: Install Opera browser
+    dnf: name={{opera_idea_download_url}} state=latest
+  become: true
+  tags:
+    - software
+    - restricted
+    - browser

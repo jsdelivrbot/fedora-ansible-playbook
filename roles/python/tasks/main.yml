@@ -1,0 +1,13 @@
+- block:
+  - name: Install python
+    dnf: name={{item}} state=latest
+    with_items:
+      - python
+      - python-pip
+      - python-virtualenv
+      - python-setuptools
+  become: true
+  tags:
+    - packages
+    - devel
+    - python

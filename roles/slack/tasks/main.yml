@@ -1,0 +1,9 @@
+- block:
+  - name: Install Slack
+    dnf: name={{slack_download_url}} state=latest
+  become: true
+  tags:
+    - packages
+    - software
+    - devel
+    - slack

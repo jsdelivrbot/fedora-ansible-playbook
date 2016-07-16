@@ -1,0 +1,29 @@
+- block:
+  - name: Download Popcortime
+    get_url: url={{popcorntime_download_url}} dest=/tmp/
+    tags:
+      - software
+      - restricted
+      - multimedia
+      - video
+      - popcortime
+
+- block:
+  - name: Install Selinux dependency
+    dnf: name=libselinux-python state=latest
+
+  - name: Create Popcortime folder
+    file: path=/opt/Popcorn-Time state=directory
+
+  - name: Decompress Popcortime
+    unarchive: src=/tmp/Popcorn-Time-0.3.10-Linux-64.tar.xz dest=/opt/Popcorn-Time copy=no
+
+  - name: Create Popcortime desktop entry
+    template: src=popcorntime.desktop dest=/usr/share/applications/popcorntime.desktop
+  become: true
+  tags:
+    - software
+    - restricted
+    - multimedia
+    - video
+    - popcortime

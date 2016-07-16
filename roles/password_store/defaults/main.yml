@@ -1,0 +1,3 @@
+bitbucket_password: ""
+gpg_private_key_path: "{{playbook_dir}}/assets/keys/pass_private.key"
+gpp_passphrase: ""

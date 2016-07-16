@@ -1,0 +1,11 @@
+ldk-docker:~/Documents/work/paradigma/ldk/ldk-docker
+ldk-directorio:~/Documents/work/paradigma/ldk/src/ldk-directorio
+ldk-web:~/Documents/work/paradigma/ldk/src/ldk-web
+vocento-ansible:~/Documents/work/paradigma/vocento/ansible-deployments
+oferplan-docker:~/Documents/work/paradigma/oferplan/oferplan-docker
+oferplan-web:~/Documents/work/paradigma/oferplan/src/oferplan-web
+oferplan-payment:~/Documents/work/paradigma/oferplan/src/oferplan-payment
+oferplan-flex:~/Documents/work/paradigma/oferplan/src/oferplan-flex
+oferplan:~/Documents/work/paradigma/oferplan/src/oferplan
+oferplan-backend-central:~/Documents/work/paradigma/oferplan/src/oferplan-backend-central
+oferplan-payment-provider:~/Documents/work/paradigma/oferplan/src/oferplan-payment-provider

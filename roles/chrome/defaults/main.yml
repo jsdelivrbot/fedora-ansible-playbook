@@ -1,0 +1,3 @@
+base_arch: x86_64
+google_chrome_download_url : "https://dl.google.com/linux/direct/google-chrome-stable_current_{{base_arch}}.rpm"
+google_talkplugin_download_url : "https://dl.google.com/linux/direct/google-talkplugin_current_{{base_arch}}.rpm"

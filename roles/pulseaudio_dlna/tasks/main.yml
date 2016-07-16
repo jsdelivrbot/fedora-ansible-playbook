@@ -1,0 +1,17 @@
+- block:
+  - name: Enable Copr pulseaudio-dlna repository
+    command: dnf config-manager --add-repo={{pulseaudio_dlna_repository_url}}
+
+  - name: Install Pulseaudio Dlna
+    dnf: name={{ item }} state=latest
+    with_items:
+      - pulseaudio-dlna
+  become: true
+  tags:
+    - packages
+    - software
+    - multimeda
+    - music
+    - pulseaudio
+    - chromecast
+    - dlna

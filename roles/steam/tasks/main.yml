@@ -1,0 +1,17 @@
+- block:
+  - name: Enable Negativo17 repository
+    command: dnf config-manager --add-repo={{steam_repository_url}}
+
+  - name: Install Steam
+    dnf: name={{ item }} state=latest
+    with_items:
+      - steam
+  - name: Make "Big picture" mode work
+    shell: setsebool -P allow_execheap 1
+  become: true
+  tags:
+    - packages
+    - software
+    - restricted
+    - games
+    - steam

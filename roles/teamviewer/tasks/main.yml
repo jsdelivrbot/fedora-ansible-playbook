@@ -1,0 +1,11 @@
+- block:
+  - name: Install Teamviewer
+    dnf: name={{item}} state=latest
+    with_items:
+      - "{{teamviewer_download_url}}"
+  become: true
+  tags:
+    - packages
+    - software
+    - restricted
+    - teamviewer

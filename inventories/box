@@ -1,0 +1,2 @@
+[laptop]
+box ansible_host=192.168.1.51

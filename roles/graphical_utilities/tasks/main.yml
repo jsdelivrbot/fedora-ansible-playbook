@@ -1,0 +1,32 @@
+- block:
+  - name: Install Graphicall utilities
+    dnf: name={{item}} state=latest
+    with_items:
+      - gimp
+      - inkscape
+
+  - name: Install Transmission
+    dnf: name={{item}} state=latest
+    with_items:
+      - transmission
+
+  - name: Install Yumex
+    dnf: name={{item}} state=latest
+    with_items:
+      - yumex-dnf
+
+  - name: Install Keepass
+    dnf: name={{item}} state=latest
+    with_items:
+      - keepass
+
+  - name: Install Calibre
+    dnf: name={{item}} state=latest
+    with_items:
+      - calibre
+
+  - name: Install DejaDup
+    dnf: name={{item}} state=latest
+    with_items:
+      - deja-dup
+  become: true

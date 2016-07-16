@@ -1,0 +1,14 @@
+- block:
+  - name: Create fonts directory
+    file: path=~/.local/share/fonts/ state=directory
+
+  - name: Install Firacode fonts
+    get_url: url="{{firacode_fonts_base_url}}{{item}}" dest="~/.local/share/fonts/{{item}}"
+    with_items:
+      - FiraCode-Bold.ttf
+      - FiraCode-Light.ttf
+      - FiraCode-Medium.ttf
+      - FiraCode-Regular.ttf
+      - FiraCode-Retina.ttf
+  tags:
+    - fonts

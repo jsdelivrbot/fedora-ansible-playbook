@@ -1,0 +1,4 @@
+opera_version: 42.0.2393.517
+opera_arch: amd64
+
+opera_idea_download_url: "http://download1.operacdn.com/pub/opera/desktop/{{opera_version}}/linux/opera-stable_{{opera_version}}_{{opera_arch}}.rpm"

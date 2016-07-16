@@ -1,0 +1,10 @@
+- block:
+  - name: Install Skype
+    dnf: name={{skype_download_url}} state=latest
+  become: true
+  tags:
+    - packages
+    - software
+    - restricted
+    - video
+    - skype

@@ -1,0 +1,68 @@
+- block:
+  - name: Install Gnome Tweak Tool and Dconf editor
+    dnf: name={{item}} state=latest
+    with_items:
+      - gnome-tweak-tool
+      - dconf-editor
+  become: true
+  tags:
+  - packages
+  - configuration
+  - gnome
+
+- block:
+  - name: Nautilus use list view
+    gsetting:
+      schema=org.gnome.nautilus.preferences
+      key=default-folder-viewer
+      value=list-view
+
+  - name: Calculator programming mode
+    gsetting:
+      schema=org.gnome.calculator
+      key=button-mode
+      value=programming
+
+  - name: Gnome system monitor, show all processes
+    gsetting:
+      schema=org.gnome.gnome-system-monitor
+      key=show-whose-processes
+      value='all'
+
+  - name: Enable touchpad tap to click
+    gsetting:
+      schema=org.gnome.desktop.peripherals.touchpad
+      key=tap-to-click
+      value=true
+      type=boolean
+
+  # - name: Add sidebar shortcuts
+  #   gsetting:
+  #     schema=org.gnome.shell
+  #     key=favorite-apps
+  #     value="['firefox.desktop','org.gnome.Nautilus.desktop','org.gnome.Terminal.desktop','terminator.desktop','spotify.desktop','atom.desktop','popcorntime.desktop','slack.desktop','steam.desktop','org.gnome.Software.desktop']"
+  #     type=array
+  tags:
+    - configuration
+    - gnome
+
+- block:
+  - name: Enable autologin
+    ini_file:
+      dest=/etc/gdm/custom.conf
+      section=daemon
+      option=AutomaticLoginEnable
+      value=True
+      backup=yes
+
+  - name: Enable autologin user
+    ini_file:
+      dest=/etc/gdm/custom.conf
+      section=daemon
+      option=AutomaticLogin
+      value=frieser
+      backup=yes
+  become: true
+  tags:
+    - configuration
+    - gnome

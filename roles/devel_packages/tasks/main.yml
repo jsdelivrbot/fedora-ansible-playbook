@@ -1,0 +1,10 @@
+- block:
+  - name: Install development operating system packages
+    dnf: name={{ item }} state=latest
+    with_items:
+      - "@Development tools"
+      - "@C Development Tools and Libraries"
+  become: true
+  tags:
+    - devel
+    - packages

@@ -1,0 +1,2 @@
+release_version: 25
+pulseaudio_dlna_repository_url: "https://copr.fedorainfracloud.org/coprs/cygn/pulseaudio-dlna/repo/fedora-{{release_version}}/cygn-pulseaudio-dlna-fedora-{{release_version}}.repo"

@@ -1,0 +1,34 @@
+- block:
+  - name: Install Keybase
+    dnf: name=https://prerelease.keybase.io/keybase_amd64.rpm state=latest
+    
+  - name: Install pass
+    dnf: name=pass state=latest
+  become: true
+  tags:
+    - credentials
+    - packages
+
+- block:
+  - name: Download latest version of the credentials
+    git: repo=https://frieser:{{bitbucket_password}}@bitbucket.org/frieser/password-storage.git
+         dest=~/.password-store
+         force=yes
+         accept_hostkey=yes
+
+  - name: Import Public GPG key
+    command: gpg2 --keyserver pgp.mit.edu --recv-key 0x8f537c76e3012fd2
+
+  - name: Copy private key to the server
+    copy: src="{{gpg_private_key_path}}" dest=/tmp/pass_private.key
+
+  - name: Import Private GPG key
+    command: echo {{ gpp_passphrase }} | gpg2 --allow-secret-key-import --import --batch --passphrase-fd 0 /tmp/pass_private.key
+
+  - name: Delete temporary private key on the server
+    file: path=/tmp/pass_private.key state=absent
+  tags:
+    - credentials
+
+
+#TODO bajar gpg id e importarlo para el usuario

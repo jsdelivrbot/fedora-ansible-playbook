@@ -1,0 +1,14 @@
+- block:
+  - name: Install Chrome
+    dnf: name={{item}} state=latest
+    with_items:
+      - "{{google_chrome_download_url}}"
+      - "{{google_talkplugin_download_url}}"
+  become: true
+  tags:
+    - packages
+    - software
+    - restricted
+    - web
+    - google
+    - chrome

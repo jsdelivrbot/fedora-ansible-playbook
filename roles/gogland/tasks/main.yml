@@ -1,0 +1,15 @@
+- block:
+  - name: Create Gogland software directory
+    file: path={{software_directory}} state=directory
+
+  - name: Download Gogland
+    get_url: url={{gogland_download_url}} dest=~/Downloads
+
+  - name: Decompress Gogland Idea
+    unarchive: src="~/Downloads/gogland-{{gogland_version}}.tar.gz" dest={{software_directory}} copy=no
+  tags:
+    - devel
+    - software
+    - restricted
+    - golang
+    - ide

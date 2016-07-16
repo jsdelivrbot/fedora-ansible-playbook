@@ -1,0 +1,11 @@
+- block:
+  - name: Install MongoDB client and utilities
+    dnf: name={{ item }} state=latest
+    with_items:
+      - mongodb
+      - mongo-tools
+  become: true
+  tags:
+    - mongo
+    - development
+    - packages

@@ -1,0 +1,29 @@
+- block:
+  - name: Install Graphical utilities
+    dnf: name={{item}} state=latest
+    with_items:
+      - gimp
+      - inkscape
+      - blender
+      - cheese
+
+  - name: Enable Redshift repository
+    command: dnf copr -y enable mystro256/gnome-redshift
+
+  - name: Install Redshift
+    dnf: name={{item}} state=latest
+    with_items:
+      - gnome-shell-extension-redshift
+
+  - name: Install Backgrounds
+    dnf: name={{item}} state=latest
+    with_items:
+      - f25-backgrounds-extras-base
+      - f25-backgrounds-extras-gnome
+      - f25-backgrounds-extras-kde
+      - f25-backgrounds-extras-mate
+      - f25-backgrounds-extras-xfce
+  become: true
+  tags:
+    - packages
+    - utils

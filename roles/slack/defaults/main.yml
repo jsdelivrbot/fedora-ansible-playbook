@@ -1,0 +1,2 @@
+base_arch: x86_64
+slack_download_url: https://downloads.slack-edge.com/linux_releases/slack-2.0.6-0.1.fc21.{{base_arch}}.rpm

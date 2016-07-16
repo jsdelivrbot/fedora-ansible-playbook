@@ -1,0 +1,5 @@
+software_directory: ~/Documents/software/gogland/
+gogland_version: 163.10615.22
+gogland_mkt_key: eyJpIjoiTjJJME5HUTNaV0kzTVRkaSIsInQiOiJ6WkFmbXpBMDV0TGZrZ1c0WlFPWkJ2TnEzRFlXRDlqVitDYTJMaFpTaFFJaUVod0Iwb05KZFNYSmhXUUw3VjZyUWVaTHBKSGN0SzZVYzVVMkNsTFNVODhON3ZPY1d5K3QzZHkyXC9DQ04zc0VhbUc5YWJmXC9vcE1XcXNMR3U3RVJDIn0%3D
+
+gogland_download_url: https://download-cf.jetbrains.com/go/gogland-{{gogland_version}}.tar.gz?mkt_tok={{gogland_mkt_key}}

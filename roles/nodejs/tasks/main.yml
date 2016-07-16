@@ -1,0 +1,13 @@
+- block:
+  - name: Enable nodejs repositories
+    shell: curl --silent --location https://rpm.nodesource.com/setup_6.x | bash -
+
+  - name: Install nodejs
+    dnf: name={{item}} state=latest
+    with_items:
+      - nodejs
+  become: true
+  tags:
+    - packages
+    - devel
+    - nodejs

@@ -1,0 +1,24 @@
+- block:
+  - name: Enable docker repository
+    yum_repository:
+      name: dockerrepo
+      description: "Docker Repository"
+      file: docker
+      baseurl: "https://yum.dockerproject.org/repo/main/fedora/$releasever/"
+      enabled: yes
+      gpgcheck: yes
+      gpgkey: "https://yum.dockerproject.org/gpg"
+
+  - name: Install Docker
+    dnf: name={{item}} state=latest
+    with_items:
+      - docker-engine
+      - docker-compose
+
+  - name: Add user to docker group
+    shell: groupadd docker;usermod -a -G docker {{ ansible_ssh_user }}
+  become: true
+  tags:
+    - packages
+    - devel
+    - docker

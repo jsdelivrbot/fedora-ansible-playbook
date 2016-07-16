@@ -1,0 +1,70 @@
+- block:
+  - name: Deactive tracker on startup
+    lineinfile:
+      dest=/etc/xdg/autostart/{{item}}.desktop
+      regexp="X\-GNOME\-Autostart\-enabled\=true"
+      line="X-GNOME-Autostart-enabled=false"
+    with_items:
+      - tracker-miner-fs
+      - evolution-alarm-notify
+      - tracker-store
+  become: true
+  tags:
+    - configuration
+    - gnome
+    - optimization
+
+- block:
+  - name: Disable systemd services on startup
+    service:
+      name={{item}}
+      enabled=false
+    with_items:
+      - plymouth-quit-wait
+      - vboxdrv
+      - lvm2-monitor
+      - libvirtd
+      - abrt-ccpp
+      - abrtd
+      - abrt-journal-core
+      - abrt-pstoreoops
+      - abrt-oops
+      - abrt-vmcore
+      - abrt-xorg.service
+      - auditd.service
+      - avahi-daemon
+      - teamviewerd
+      - bluetooth
+      - sendmail
+  - name: Enable Trim systemd service on startup
+      service:
+        name={{item}}
+        enabled=true
+      with_items:
+        - fstrim
+  become: true
+  tags:
+    - configuration
+    - optimization
+
+- block:
+  - name: Install tlp
+    dnf: name={{ item }} state=latest
+    with_items:
+      - tlp
+      - tlp-rdw
+      - smartmontools
+  - name: Install powertop
+    dnf: name={{ item }} state=latest
+    with_items:
+      - powertop
+  - name: Enable powertop
+    copy:
+      src: powertop.service
+      dest: /etc/systemd/system/powertop.service
+
+  become: true
+  tags:
+    - configuration
+    - optimization
+    - battery

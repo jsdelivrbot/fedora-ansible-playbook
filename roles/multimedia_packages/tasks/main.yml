@@ -1,0 +1,98 @@
+- block:
+  - name: Enable third party codecs repo
+    yum_repository:
+      name: fedora-cisco-openh264
+      description: "Fedora $releasever openh264 (From Cisco) - $basearch"
+      file: fedora-cisco-openh264
+      baseurl: "https://codecs.fedoraproject.org/openh264/$releasever/$basearch/"
+      enabled: yes
+      gpgcheck: yes
+      repo_gpgcheck: yes
+      gpgkey: "file:///etc/pki/rpm-gpg/RPM-GPG-KEY-fedora-$releasever-$basearch"
+      metadata_expire: 14d
+      skip_if_unavailable: no
+
+  - name: Enable third party codecs debug info repo
+    yum_repository:
+      name: fedora-cisco-openh264-debuginfo
+      description: "Fedora $releasever openh264 (From Cisco) - $basearch - Debug"
+      file: fedora-cisco-openh264
+      baseurl: "https://codecs.fedoraproject.org/openh264/$releasever/$basearch/debug/"
+      failovermethod: priority
+      enabled: no
+      gpgcheck: yes
+      repo_gpgcheck: yes
+      gpgkey: "file:///etc/pki/rpm-gpg/RPM-GPG-KEY-fedora-$releasever-$basearch"
+      metadata_expire: 28d
+      skip_if_unavailable: no
+
+  - name: Enable RPM fusion free and nonfree repositories
+    dnf: name={{item}}  state=latest
+    with_items:
+      - "{{rpmfusion_free_release}}"
+      - "{{rpmfusion_nonfree_release}}"
+
+  - name: Install audio and video codecs
+    dnf: name={{ item }} state=latest
+    with_items:
+      - gstreamer1-plugin-openh264
+      - gstreamer1-plugins-base
+      - gstreamer1-plugins-good
+      - gstreamer1-plugins-ugly
+      - gstreamer1-plugins-bad-free
+      - gstreamer1-plugins-bad-free
+      - gstreamer1-plugins-bad-freeworld
+      - gstreamer1-plugins-bad-free-extras
+      - ffmpeg
+
+  - name: Install Vlc
+    dnf: name={{ item }} state=latest
+    with_items:
+      - vlc
+  become: true
+  tags:
+    - multimedia
+    - package
+    - codecs
+    - restricted
+
+
+- block:
+  - name: Enable Flash player repositories
+    dnf: name={{adobe_release_url}}  state=latest
+
+  - name: Install Flash player
+    dnf: name={{ item }} state=latest
+    with_items:
+      - flash-plugin
+      - alsa-plugins-pulseaudio
+      - libcurl
+  become: true
+  tags:
+    - multimedia
+    - packages
+    - flash
+    - restricted
+
+- block:
+  - name: Install archive formats
+    dnf: name={{ item }} state=latest
+    with_items:
+      - p7zip
+      - p7zip-plugins
+  become: true
+  tags:
+    - multimedia
+    - packages
+    - restricted
+
+- block:
+  - name: Install Pulseaudio control center
+    dnf: name={{ item }} state=latest
+    with_items:
+      - pavucontrol
+  become: true
+  tags:
+    - multimedia
+    - packages
+    - audio

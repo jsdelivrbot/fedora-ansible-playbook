@@ -1,0 +1,15 @@
+- block:
+  - name: Upgrade all packages
+    dnf: name=* state=latest
+
+  - name: Install base operating system packages
+    dnf: name={{ item }} state=latest
+    with_items:
+      - vim
+      - git
+      - kernel-devel
+      - htop
+  become: true
+  tags:
+    - base
+    - packages
