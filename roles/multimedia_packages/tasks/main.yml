@@ -96,3 +96,14 @@
     - multimedia
     - packages
     - audio
+    
+- block:
+  - name: Install Calibre
+    dnf: name={{ item }} state=latest
+    with_items:
+      - calibre
+  become: true
+  tags:
+    - multimedia
+    - packages
+    - ebook

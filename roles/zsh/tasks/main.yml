@@ -50,3 +50,12 @@
     - packages
     - terminal
     - zsh
+- block:
+  - name: Install Keep
+    pip:
+      name: keep
+  become: true
+  tags:
+    - packages
+    - terminal
+    - zsh

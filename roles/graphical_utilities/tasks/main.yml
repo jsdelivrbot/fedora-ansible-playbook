@@ -8,7 +8,7 @@
   - name: Install Transmission
     dnf: name={{item}} state=latest
     with_items:
-      - transmission
+      - transmission-gtk
 
   - name: Install Yumex
     dnf: name={{item}} state=latest

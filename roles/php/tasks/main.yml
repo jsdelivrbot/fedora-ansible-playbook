@@ -1,10 +1,28 @@
 - block:
-  - name: Install php
+  - name: Download Remi Php 7 repository
     dnf: name={{item}} state=latest
+    with_items:
+      - "{{remi_repository_url}}"
+
+
+  # TODO esto no funciona    
+  - name: Install php
+    dnf: name={{item}} state=latest enablerepo=remi-php71
     with_items:
       - php-cli
       - composer
       - phpunit
+      - php-pecl-apcu
+      - php-pear
+      - php-pdo
+      - php-mysqlnd
+      - php-pgsql
+      - php-pecl-mongodb
+      - php-pecl-memcache
+      - php-pecl-memcached
+      - php-gd php-mbstring
+      - php-mcrypt
+      - php-xml
 
   - name: Install the Symfony installer
     shell: curl -LsS https://symfony.com/installer -o /usr/local/bin/symfony;chmod a+x /usr/local/bin/symfony

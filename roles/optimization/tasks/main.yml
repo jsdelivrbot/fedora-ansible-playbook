@@ -35,12 +35,11 @@
       - avahi-daemon
       - teamviewerd
       - bluetooth
-      - sendmail
   - name: Enable Trim systemd service on startup
-      service:
-        name={{item}}
-        enabled=true
-      with_items:
+    service:
+      name={{item}}
+      enabled=true
+    with_items:
         - fstrim
   become: true
   tags:
